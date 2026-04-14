@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.icons8.com/ios-filled/512/play.png"
+    />
+    <!-- Font Awesome 6.5.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="CSS/framework.css" />
+    <link rel="stylesheet" href="CSS/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Saged</h3>
+        <ul>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head -->
+        <nav class="header bg-white p-15 p-relative between-flex">
+          <div class="search-box p-relative center-flex rad-10">
+            <i class="fas fa-search"></i>
+            <input
+              class="border-none"
+              type="text"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <i class="far fa-bell fa-lg bell p-relative"><span></span></i>
+            <div class="img">
+              <img
+                class="user p-relative"
+                src="Images/profile-img.png"
+                alt="your profile"
+              />
+            </div>
+          </div>
+        </nav>
+        <!-- End Head -->
+        <div class="Dashboard p-relative">
+          <h1 class="Head p-relative">Dashboard</h1>
+          <div class="cards d-grid gap-20">
+            <!-- !Start CRD Welc-->
+            <div
+              class="Welc-crd Dsh-crd bg-white rad-10 txt-c-mobile block-mobile"
+            >
+              <div class="intro p-20 d-flex space-between bg-eee">
+                <div>
+                  <h2 class="m-0">Welcome</h2>
+                  <p class="c-grey mt-5">Saged</p>
+                </div>
+                <img class="prf" src="Images/profile-img.png" alt="profile" />
+                <img class="bacgr" src="Images/Team4.png" alt="" />
+              </div>
+              <div class="body txt-c d-flex p-20 mb-20 block-mobile"></div>
+              <div class="cnt-welc d-flex space-evenly">
+                <div class="usr-nm txt-c">
+                  <h3>Saged mohamed</h3>
+                  <p class="c-grey">developer</p>
+                </div>
+                <div class="usr-prj txt-c">
+                  <h3>6</h3>
+                  <p class="c-grey">Projects</p>
+                </div>
+                <div class="usr-mn txt-c">
+                  <h3>$300</h3>
+                  <p class="c-grey">Earned</p>
+                </div>
+              </div>
+              <div class="button crd-bt bt-blue txt-r">
+                <p class="m-0">Profile</p>
+              </div>
+            </div>
+            <!-- !End CRD Welc-->
+            <!-- !Start CRD Quick-->
+            <div class="Qck-drf-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="m-0">Quick Draft</h2>
+                  <p class="c-grey mt-5">Write A Draft For Your Ideas</p>
+                </div>
+                <input
+                  class="rad-6 non-bord-inp"
+                  type="text"
+                  name="inp-qck"
+                  placeholder="Title"
+                />
+                <textarea
+                  class="rad-6 non-bord-texar"
+                  name="txtarea-qck"
+                  placeholder="Your Thought"
+                ></textarea>
+              </div>
+              <div class="button crd-bt bt-blue txt-r">
+                <p class="m-0">Save</p>
+              </div>
+            </div>
+            <!-- !End CRD Quick -->
+            <!-- !Start CRD Year -->
+            <div class="Yr-Tg-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2>Yearly targets</h2>
+                  <p class="c-grey m-0 mt-5">Targets of the Year</p>
+                </div>
+              </div>
+              <div class="cnt-yr">
+                <div class="money d-flex type-cont">
+                  <div class="icon-pr">
+                    <i class="fas fa-dollar"></i>
+                  </div>
+                  <div class="progress">
+                    <p class="c-grey m-0">Money</p>
+                    <p class="m-0 p1 p-crd fw-bold">$300.00</p>
+                  </div>
+                </div>
+                <div class="code d-flex type-cont">
+                  <div class="icon-pr">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="progress">
+                    <p class="c-grey m-0">Projects</p>
+                    <p class="m-0 p2 p-crd fw-bold">8</p>
+                  </div>
+                </div>
+                <div class="user d-flex type-cont">
+                  <div class="icon-pr">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="progress">
+                    <p class="c-grey m-0">Team</p>
+                    <p class="m-0 p3 p-crd fw-bold">4</p>
+                  </div>
+                </div>
+                <div class="skill d-flex type-cont">
+                  <div class="icon-pr">
+                    <i class="fa-solid fa-brain"></i>
+                  </div>
+                  <div class="progress">
+                    <p class="c-grey m-0">Skill learned</p>
+                    <p class="m-0 p4 p-crd fw-bold">34</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- !End CRD Year -->
+            <!-- !Start CRD Ticks -->
+            <div class="Tk-St-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2>Tickets Statistics</h2>
+                  <p class="c-grey m-0 mt-5">
+                    Everything About Support Tickets
+                  </p>
+                </div>
+              </div>
+              <div class="cnt-tk d-grid m-15">
+                <div class="ticket tik-1 d-flex">
+                  <i class="fas fa-th-list c-orange"></i>
+                  <p class="p-tik fw-bold m-0">2500</p>
+                  <p class="p-tik c-grey m-0">Total</p>
+                </div>
+                <div class="ticket tik-2 d-flex">
+                  <i class="fas fa-hourglass-half fa-spin c-blue"></i>
+                  <p class="p-tik fw-bold m-0">500</p>
+                  <p class="p-tik c-grey m-0">Pending</p>
+                </div>
+                <div class="ticket tik-3 d-flex">
+                  <i class="far fa-check-circle c-green"></i>
+                  <p class="p-tik fw-bold m-0">1900</p>
+                  <p class="p-tik c-grey m-0">Closed</p>
+                </div>
+                <div class="ticket tik-4 d-flex">
+                  <i class="far fa-times-circle c-red"></i>
+                  <p class="p-tik fw-bold m-0">100</p>
+                  <p class="p-tik c-grey m-0">Deleted</p>
+                </div>
+              </div>
+            </div>
+            <!-- !End CRD Ticks -->
+            <!-- !Start CRD News -->
+            <div class="L-Nws-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Latest News</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/table.jpg" alt="" />
+                      <div class="txt">
+                        <h3>Created SASS Section</h3>
+                        <p>New SASS Examples & Tutorials</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="days-ago">
+                    <p><span>1</span> Days Ago</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/art.jpg" alt="" />
+                      <div class="txt">
+                        <h3>The Design Changed</h3>
+                        <p>A Brand New Website Design</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="days-ago">
+                    <p><span>4</span> Days Ago</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/paper-made.jpg" alt="" />
+                      <div class="txt">
+                        <h3>Team Increased</h3>
+                        <p>3 Developers Joined The Team</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="days-ago">
+                    <p><span>4</span> Days Ago</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/toys.jpg" alt="" />
+                      <div class="txt">
+                        <h3>Payment Gateway</h3>
+                        <p>New Payment Gateways Added</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="days-ago">
+                    <p><span>7</span> Days Ago</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+              </div>
+            </div>
+            <!-- !End CRD News -->
+            <!-- !Start CRD Tasks -->
+            <div class="L-tsk-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Latest Tasks</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cnt-txt d-flex">
+                    <div class="txt">
+                      <p class="tsk-hd fw-bold fs-16">Record One New Video</p>
+                      <p class="c-grey">Record Python Create Exe Project</p>
+                    </div>
+                  </div>
+                  <div class="del-bt">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cnt-txt d-flex">
+                    <div class="txt">
+                      <p class="tsk-hd fw-bold fs-16">Write Article</p>
+                      <p class="c-grey">
+                        Write Low Level vs High Level Languages
+                      </p>
+                    </div>
+                  </div>
+                  <div class="del-bt">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cnt-txt d-flex">
+                    <div class="txt">
+                      <p class="tsk-hd fw-bold fs-16">Finish Project</p>
+                      <p class="c-grey">Publish Academy Programming Project</p>
+                    </div>
+                  </div>
+                  <div class="del-bt">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex ops-low">
+                  <div class="cnt-txt d-flex">
+                    <div class="txt">
+                      <p class="tsk-hd fw-bold fs-16">
+                        <s>Attend The Meeting</s>
+                      </p>
+                      <p class="c-grey">
+                        <s>Attend The Project Business Analysis Meeting</s>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="del-bt">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cnt-txt d-flex">
+                    <div class="txt">
+                      <p class="tsk-hd fw-bold fs-16">Finish Lesson</p>
+                      <p class="c-grey">Finish Teaching Flex Box</p>
+                    </div>
+                  </div>
+                  <div class="del-bt">
+                    <i class="far fa-check-circle"></i>
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+              </div>
+              <!-- !End CRD News -->
+            </div>
+            <!-- !End CRD Tasks -->
+            <!-- !Start CRD Search -->
+            <div class="Top-Sch-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Top Search items</h2>
+                </div>
+              </div>
+              <!-- todo: hd-card -->
+              <div class="cont-tk-hd m-15">
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p class="c-grey">Keyword</p>
+                  </div>
+                  <div class="sch-count-hd">
+                    <p class="m-0 c-grey">Search count</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>Programming</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">220</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>Javascript</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">180</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>PHP</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">160</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>C++</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">145</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>Design</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">110</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+                <div class="crd-sch between-flex">
+                  <div class="sch-keyword">
+                    <p>Logic</p>
+                  </div>
+                  <div class="sch-count">
+                    <p class="m-0">95</p>
+                  </div>
+                </div>
+                <!-- todo: card -->
+              </div>
+            </div>
+            <!-- !End CRD Search -->
+            <!-- !Start Upload card -->
+            <div class="L-Upld-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Latest Uploads</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/PDF.png" alt="" />
+                      <div class="txt">
+                        <p>project.pdf</p>
+                        <p class="c-grey">CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p><span>1.2</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/AVI.png" alt="" />
+                      <div class="txt">
+                        <p>presentation.avi</p>
+                        <p class="c-grey">Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p><span>4.4</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/DLL.png" alt="" />
+                      <div class="txt">
+                        <p>DLL-project.dll</p>
+                        <p class="c-grey">Programmer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p><span>0.1</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/PSD.png" alt="" />
+                      <div class="txt">
+                        <p>PSD-project.psd</p>
+                        <p class="c-grey">Programmer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p><span>5.1</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/ZIP.png" alt="" />
+                      <div class="txt">
+                        <p>collapse-project.zip</p>
+                        <p class="c-grey">Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p><span>3.5</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+                <!-- todo Start cnt -->
+                <div class="cnt-tk between-flex">
+                  <div class="cont">
+                    <div class="cnt-txt d-flex">
+                      <img src="Images/XML.png" alt="" />
+                      <div class="txt">
+                        <p>Excel-project.XML</p>
+                        <p class="c-grey">Data Engineer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="file-size">
+                    <p class="m-0"><span>0.8</span>MB</p>
+                  </div>
+                </div>
+                <!-- todo End cnt -->
+              </div>
+              <!-- !End CRD News -->
+            </div>
+            <!-- !End Upload card -->
+            <!-- !Start project card -->
+            <div class="L-Prj-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Latest Project Progress</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <div class="cont d-flex">
+                  <div class="cont-circle">
+                    <div class="crc-1 crc">
+                      <div class="crc-2 crc"></div>
+                    </div>
+                  </div>
+                  <div class="cont-txt">starting Initiation</div>
+                </div>
+                <div class="cont d-flex">
+                  <div class="cont-circle">
+                    <div class="crc-1 crc">
+                      <div class="crc-2 crc"></div>
+                    </div>
+                  </div>
+                  <div class="cont-txt">Planning for tasks</div>
+                </div>
+                <div class="cont d-flex">
+                  <div class="cont-circle">
+                    <div class="crc-1 crc">
+                      <div class="crc-2 crc"></div>
+                    </div>
+                  </div>
+                  <div class="cont-txt">Begin Designing</div>
+                </div>
+                <div class="cont d-flex">
+                  <div class="cont-circle">
+                    <div class="crc-1 crc">
+                      <div class="crc-2 crc current-crc"></div>
+                    </div>
+                  </div>
+                  <div class="cont-txt">Testing & Quality Assurance</div>
+                </div>
+                <div class="cont d-flex">
+                  <div class="cont-circle">
+                    <div class="crc-1 crc">
+                      <div class="crc-2 crc"></div>
+                    </div>
+                  </div>
+                  <div class="cont-txt">Closure & Launch</div>
+                </div>
+              </div>
+              <!--!Start CRD   -->
+            </div>
+            <!-- !End project card -->
+            <!-- !Start Reminder card -->
+            <div class="Rmnd-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Reminders</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <!-- todo Strat card -->
+                <div class="cont cont-1 d-flex align-center">
+                  <div class="cont-bord bord-1 d-flex align-center">
+                    <div class="circ-ul"></div>
+                  </div>
+                  <div class="txt">
+                    <p class="fw-bold m-0">Check Tasks List</p>
+                    <p class="c-grey m-0 mt-10">
+                      <span class="date"> </span> 30/03/2026
+                      <span class="comma"> - </span>
+                      <span class="hour"> 4:47 AM </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="cont cont-2 d-flex align-center">
+                  <div class="cont-bord bord-2 d-flex align-center">
+                    <div class="circ-ul"></div>
+                  </div>
+                  <div class="txt">
+                    <p class="fw-bold m-0">Check latest projects</p>
+                    <p class="c-grey m-0 mt-10">
+                      <span class="date"> </span> 30/03/2026
+                      <span class="comma"> - </span>
+                      <span class="hour"> 4:50 AM </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="cont cont-3 d-flex align-center">
+                  <div class="cont-bord bord-3 d-flex align-center">
+                    <div class="circ-ul"></div>
+                  </div>
+                  <div class="txt">
+                    <p class="fw-bold m-0">Complete Main Tasks</p>
+                    <p class="c-grey m-0 mt-10">
+                      <span class="date"> </span> 30/03/2026
+                      <span class="comma"> - </span>
+                      <span class="hour"> 4:53 AM </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="cont cont-4 d-flex align-center">
+                  <div class="cont-bord bord-4 d-flex align-center">
+                    <div class="circ-ul"></div>
+                  </div>
+                  <div class="txt">
+                    <p class="fw-bold m-0">Project development</p>
+                    <p class="c-grey m-0 mt-10">
+                      <span class="date"> </span> 30/03/2026
+                      <span class="comma"> - </span>
+                      <span class="hour"> 4:50 AM </span>
+                    </p>
+                  </div>
+                </div>
+                <!-- todo End card -->
+              </div>
+            </div>
+            <!-- !End Reminder card -->
+            <!-- !Start Post card -->
+            <div class="L-Pst-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Latest Post</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <div class="cont-user mb-20 d-flex align-center">
+                  <img src="Images/profile-img.png" alt="" />
+                  <div class="user txt-l">
+                    <p class="user-n fw-bold m-0">Saged mohamed</p>
+                    <p class="time-ago c-grey m-0 mt-10">
+                      <span> About </span> 5 <span> minutes </span>
+                      <span> Ago </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="cont-cnt">
+                  <p class="some-stuff m-0 lh-2 mr-10 ml-10 fs-16">
+                    My name is Saged and I working on this dashboard with my
+                    pure efforts, I have many purposes to make it, One of them
+                    is qualifing my self to make projects to get to work better
+                  </p>
+                </div>
+                <div class="cont-reacts between-flex mt-20">
+                  <div class="likes c-grey d-flex align-center cursor-pointer">
+                    <i class="far fa-heart"></i>
+                    <p class="m-0 ml-5"><span>28</span><span></span></p>
+                  </div>
+                  <div
+                    class="comments c-grey d-flex align-center cursor-pointer"
+                  >
+                    <i class="far fa-comments"></i>
+                    <p class="m-0 ml-5"><span>4</span><span></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- !End Post card -->
+            <!-- !Start Social card -->
+            <div class="Soc-crd Dsh-crd bg-white rad-10 txt-c-mobile">
+              <div class="intro p-20">
+                <div>
+                  <h2 class="h-int">Social Media Stats</h2>
+                </div>
+              </div>
+              <div class="cont-tk m-15">
+                <div class="cont-crd between-flex bg-L-blue-opc-low">
+                  <div class="cont-soc d-flex align-center">
+                    <div class="cont-icn center-flex c-white bg-L-blue">
+                      <i class="fa-brands fa-trello"></i>
+                    </div>
+                    <div class="cont-cnt">
+                      <p class="m-0 ml-20 c-light-blue">
+                        <span>74</span><span> Followers</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="button crd-bt bt-L-blue mr-15">
+                    <p class="m-0">Follow</p>
+                  </div>
+                </div>
+                <div class="cont-crd between-flex bg-green-opc-low">
+                  <div class="cont-soc d-flex align-center">
+                    <div class="cont-icn center-flex c-white bg-green">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="cont-cnt">
+                      <p class="m-0 ml-20 c-green">
+                        <span>25</span><span> Contacts</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="button crd-bt bt-green mr-15">
+                    <p class="m-0">Call</p>
+                  </div>
+                </div>
+                <div class="cont-crd between-flex bg-red-opc-low">
+                  <div class="cont-soc d-flex align-center">
+                    <div class="cont-icn center-flex c-white bg-red">
+                      <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="cont-cnt">
+                      <p class="m-0 ml-20 c-red">
+                        <span>33</span><span> Subscribers</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="button crd-bt bt-red mr-15">
+                    <p class="m-0">Subscribe</p>
+                  </div>
+                </div>
+                <div class="cont-crd between-flex black-color-opc-low">
+                  <div class="cont-soc d-flex align-center">
+                    <div class="cont-icn center-flex c-white bg-black">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div class="cont-cnt">
+                      <p class="m-0 ml-20 c-black">
+                        <span>4</span><span> Followers</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="button crd-bt bt-black mr-15">
+                    <p class="m-0">Follow</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- !End Social card -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
